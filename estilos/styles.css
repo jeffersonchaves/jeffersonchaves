@@ -1,0 +1,39 @@
+body {
+    color: white;
+    background: #2727ff;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    line-height: 45px;
+}
+
+h1 strong {
+    /* color: #00e5fc; */
+    color: yellow;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+}
+
+header,
+main,
+footer {
+    border: dotted yellow;
+    margin: 0 100px 0 100px;
+}
+
+footer {
+    background: #00e5fc;
+}
