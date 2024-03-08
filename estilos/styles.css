@@ -5,8 +5,8 @@ body {
 }
 
 h1 {
-    font-size: 55px;
-    line-height: 45px;
+    font-size: 64px;
+    line-height: 56px;
 }
 
 h1 strong {
@@ -17,10 +17,12 @@ h1 strong {
 header ul li a {
     color: white;
     text-decoration: none;
+    margin-right: 15px;
 }
 
 header ul {
     list-style: none;
+    padding-left: 0;
 }
 
 header ul li {
@@ -30,10 +32,34 @@ header ul li {
 header,
 main,
 footer {
-    border: dotted yellow;
-    margin: 0 100px 0 100px;
+    width: 80%;
+    margin: 0 auto; /*centralizar caixas na página*/
+    /* border: dotted yellow; */
+}
+
+header {
+    padding: 12px 0 12px 0;
 }
 
 footer {
     background: #00e5fc;
+}
+
+/* Estilização do layout */
+
+section {
+    box-sizing: border-box;
+    float: left;
+}
+
+.secao-conteudo {
+    width: 80%;
+}
+.secao-imagem {
+    width: 20%;
+}
+
+footer {
+    float: left;
+    height: 50px;
 }
